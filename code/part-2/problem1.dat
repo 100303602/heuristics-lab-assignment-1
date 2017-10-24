@@ -1,7 +1,20 @@
+/*
+ * Title:
+ *     m.dat
+ *
+ * Description:
+ *     This model finds the optimal solution to the task/hours assignment and
+ *     the assignment of trucks/trains to routes
+ *
+ * Authors:
+ *     Alvaro C ́aceres M ̃no (100303602@alumnos.
+ *     Guillermo Escobero Hern ́andez (100346060@alumnos.uc3m.es)
+ */
+
 data;
 
-set CATEGORIES   := M1 M2 M3;
-set COMPARTMENTS := C1 C2 C3 C4 C5 C6;
+set CATEGORIES        := M1 M2 M3;
+set COMPARTMENTS      := C1 C2 C3 C4 C5 C6;
 set NOSE_COMPARTMENTS := C1 C4;
 set TAIL_COMPARTMENTS := C3 C6;
 

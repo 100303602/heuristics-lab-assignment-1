@@ -1,3 +1,17 @@
+/*
+ * Title:
+ *     m.mod
+ *
+ * Description:
+ *     This model finds the optimal solution to the task/hours assignment and
+ *     the assignment of trucks/trains to routes
+ *
+ * Authors:
+ *     Andres Gonzalez Lopez (100303555)
+ *     Alvaro Caceres Mu~noz (100303555)
+ */
+
+
 /* Sets */
 set CATEGORIES;
 set COMPARTMENTS;
