@@ -1,0 +1,21 @@
+data;
+
+set CELL := top1 top2;
+
+param Cost := 
+top1 600
+top2 150;
+
+param Power :=
+top1 480
+top2 1200;
+
+param Chemicals :=
+top1 350
+top2 200;
+
+param Area :=
+top1 0.5
+top2 0.8;
+
+end;
