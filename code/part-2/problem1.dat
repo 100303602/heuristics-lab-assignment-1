@@ -3,12 +3,10 @@
  *     m.dat
  *
  * Description:
- *     This model finds the optimal solution to the task/hours assignment and
- *     the assignment of trucks/trains to routes
  *
  * Authors:
- *     Alvaro C ́aceres M ̃no (100303602@alumnos.
- *     Guillermo Escobero Hern ́andez (100346060@alumnos.uc3m.es)
+ *     Alvaro Caceres Mu~noz (100303602)
+ *     Guillermo Escobero Hernandez (100346060)
  */
 
 data;

@@ -3,14 +3,11 @@
  *     m.mod
  *
  * Description:
- *     This model finds the optimal solution to the task/hours assignment and
- *     the assignment of trucks/trains to routes
  *
  * Authors:
- *     Andres Gonzalez Lopez (100303555)
- *     Alvaro Caceres Mu~noz (100303555)
+ *     Alvaro Caceres Mu~noz (100303602)
+ *     Guillermo Escobero Hernandez (100346060)
  */
-
 
 /* Sets */
 set CATEGORIES;
@@ -27,15 +24,15 @@ param Weights            {i in CATEGORIES};
 param Maximum_Weights    {i in COMPARTMENTS};
 
 /* Variables */
-var x {i in COMPARTMENTS, j in CATEGORIES} binary;
+var baggages {i in COMPARTMENTS, j in CATEGORIES} integer, >= 0;
 
 /* Objective function */
-minimize Expense: sum{i in CATEGORIES} (Costs[i] * (Number_of_Bags[i] - sum{j in COMPARTMENTS} x[i,j]));
+minimize Expense: sum{j in CATEGORIES} (Costs[j] * (Number_of_Bags[j] - sum{i in COMPARTMENTS} baggages[i,j]));
 
 /* Constraints */
-s.t. Volume {i in COMPARTMENTS}:          sum{j in CATEGORIES} Volumes[j] * x[i,j] <= Maximum_Volumes[i];
-s.t. Weight {i in COMPARTMENTS}:          sum{j in CATEGORIES} Weights[j] * x[i,j] <= Maximum_Weights[i];
-s.t. Gravity_Center:                      sum{i in NOSE_COMPARTMENTS} (sum{j in CATEGORIES} Weights[j]*x[i,j]) >= 1.1 * sum{k in TAIL_COMPARTMENTS} (sum{l in CATEGORIES} Weights[l]*x[k,l]);
-s.t. Baggage_Quantity {i in CATEGORIES}:  sum{j in COMPARTMENTS} x[i,j] <= Number_of_Bags[i];
+s.t. Volume {i in COMPARTMENTS}:          sum{j in CATEGORIES} Volumes[j] * baggages[i,j] <= Maximum_Volumes[i];
+s.t. Weight {i in COMPARTMENTS}:          sum{j in CATEGORIES} Weights[j] * baggages[i,j] <= Maximum_Weights[i];
+s.t. Gravity_Center:                      sum{i in NOSE_COMPARTMENTS} (sum{j in CATEGORIES} Weights[j]*baggages[i,j]) >= 1.1 * sum{k in TAIL_COMPARTMENTS} (sum{l in CATEGORIES} Weights[l]*baggages[k,l]);
+s.t. Baggage_Quantity {j in CATEGORIES}:  sum{i in COMPARTMENTS} baggages[i,j] <= Number_of_Bags[j];
 
 end;
