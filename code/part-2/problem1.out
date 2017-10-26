@@ -31,26 +31,42 @@ Objective:  Expense = 160 (MINimum)
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 baggages[C1,M1]             2             0               
-     2 baggages[C2,M1]             0             0               
-     3 baggages[C3,M1]             2             0               
-     4 baggages[C4,M1]             2             0               
-     5 baggages[C5,M1]             0             0               
-     6 baggages[C6,M1]             0             0               
-
-     7 baggages[C1,M2]             2             0               
-     8 baggages[C2,M2]             2             0               
-     9 baggages[C3,M2]             2             0               
-    10 baggages[C4,M2]             2             0               
-    11 baggages[C5,M2]             5             0               
-    12 baggages[C6,M2]             5             0               
-
-    13 baggages[C1,M3]             2             0               
-    14 baggages[C2,M3]             4             0               
-    15 baggages[C3,M3]             1             0               
-    16 baggages[C4,M3]             2             0               
-    17 baggages[C5,M3]             2             0               
-    18 baggages[C6,M3]             0             0               
+     1 baggages[C1,M1]
+                    *              2             0               
+     2 baggages[C2,M1]
+                    *              0             0               
+     3 baggages[C3,M1]
+                    *              2             0               
+     4 baggages[C4,M1]
+                    *              2             0               
+     5 baggages[C5,M1]
+                    *              0             0               
+     6 baggages[C6,M1]
+                    *              0             0               
+     7 baggages[C1,M2]
+                    *              2             0               
+     8 baggages[C2,M2]
+                    *              2             0               
+     9 baggages[C3,M2]
+                    *              2             0               
+    10 baggages[C4,M2]
+                    *              2             0               
+    11 baggages[C5,M2]
+                    *              5             0               
+    12 baggages[C6,M2]
+                    *              5             0               
+    13 baggages[C1,M3]
+                    *              2             0               
+    14 baggages[C2,M3]
+                    *              4             0               
+    15 baggages[C3,M3]
+                    *              1             0               
+    16 baggages[C4,M3]
+                    *              2             0               
+    17 baggages[C5,M3]
+                    *              2             0               
+    18 baggages[C6,M3]
+                    *              0             0               
 
 Integer feasibility conditions:
 

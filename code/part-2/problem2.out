@@ -1,0 +1,267 @@
+Problem:    problem2
+Rows:       104
+Columns:    36 (36 integer, 36 binary)
+Non-zeros:  288
+Status:     INTEGER EMPTY
+Objective:  Expenses = 0 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Expenses                    0                             
+     2 Minimum_Pilots[v1]
+                                   0             1               
+     3 Minimum_Pilots[v2]
+                                   0             1               
+     4 Minimum_Pilots[v3]
+                                   0             1               
+     5 Minimum_Pilots[v4]
+                                   0             1               
+     6 Minimum_Pilots[v5]
+                                   0             1               
+     7 Minimum_Pilots[v6]
+                                   0             1               
+     8 Minimum_Attendants[v1]
+                                   0             1               
+     9 Minimum_Attendants[v2]
+                                   0             1               
+    10 Minimum_Attendants[v3]
+                                   0             1               
+    11 Minimum_Attendants[v4]
+                                   0             1               
+    12 Minimum_Attendants[v5]
+                                   0             1               
+    13 Minimum_Attendants[v6]
+                                   0             1               
+    14 Hours_Assigned
+                                   0                          -0 
+    15 Breaks[p1,v1,v2]
+                                   0            60               
+    16 Breaks[p1,v1,v3]
+                                   0            60               
+    17 Breaks[p1,v1,v4]
+                                   0            60               
+    18 Breaks[p1,v1,v5]
+                                   0            60               
+    19 Breaks[p1,v1,v6]
+                                   0            60               
+    20 Breaks[p1,v2,v1]
+                                   0            60               
+    21 Breaks[p1,v2,v3]
+                                   0            60               
+    22 Breaks[p1,v2,v4]
+                                   0            60               
+    23 Breaks[p1,v2,v5]
+                                   0            60               
+    24 Breaks[p1,v2,v6]
+                                   0            60               
+    25 Breaks[p1,v3,v1]
+                                   0            60               
+    26 Breaks[p1,v3,v2]
+                                   0            60               
+    27 Breaks[p1,v3,v4]
+                                   0            60               
+    28 Breaks[p1,v3,v5]
+                                   0            60               
+    29 Breaks[p1,v3,v6]
+                                   0            60               
+    30 Breaks[p1,v4,v1]
+                                   0            60               
+    31 Breaks[p1,v4,v2]
+                                   0            60               
+    32 Breaks[p1,v4,v3]
+                                   0            60               
+    33 Breaks[p1,v4,v5]
+                                   0            60               
+    34 Breaks[p1,v4,v6]
+                                   0            60               
+    35 Breaks[p1,v5,v1]
+                                   0            60               
+    36 Breaks[p1,v5,v2]
+                                   0            60               
+    37 Breaks[p1,v5,v3]
+                                   0            60               
+    38 Breaks[p1,v5,v4]
+                                   0            60               
+    39 Breaks[p1,v5,v6]
+                                   0            60               
+    40 Breaks[p1,v6,v1]
+                                   0            60               
+    41 Breaks[p1,v6,v2]
+                                   0            60               
+    42 Breaks[p1,v6,v3]
+                                   0            60               
+    43 Breaks[p1,v6,v4]
+                                   0            60               
+    44 Breaks[p1,v6,v5]
+                                   0            60               
+    45 Breaks[p2,v1,v2]
+                                   0            25               
+    46 Breaks[p2,v1,v3]
+                                   0            25               
+    47 Breaks[p2,v1,v4]
+                                   0            25               
+    48 Breaks[p2,v1,v5]
+                                   0            25               
+    49 Breaks[p2,v1,v6]
+                                   0            25               
+    50 Breaks[p2,v2,v1]
+                                   0            25               
+    51 Breaks[p2,v2,v3]
+                                   0            25               
+    52 Breaks[p2,v2,v4]
+                                   0            25               
+    53 Breaks[p2,v2,v5]
+                                   0            25               
+    54 Breaks[p2,v2,v6]
+                                   0            25               
+    55 Breaks[p2,v3,v1]
+                                   0            25               
+    56 Breaks[p2,v3,v2]
+                                   0            25               
+    57 Breaks[p2,v3,v4]
+                                   0            25               
+    58 Breaks[p2,v3,v5]
+                                   0            25               
+    59 Breaks[p2,v3,v6]
+                                   0            25               
+    60 Breaks[p2,v4,v1]
+                                   0            25               
+    61 Breaks[p2,v4,v2]
+                                   0            25               
+    62 Breaks[p2,v4,v3]
+                                   0            25               
+    63 Breaks[p2,v4,v5]
+                                   0            25               
+    64 Breaks[p2,v4,v6]
+                                   0            25               
+    65 Breaks[p2,v5,v1]
+                                   0            25               
+    66 Breaks[p2,v5,v2]
+                                   0            25               
+    67 Breaks[p2,v5,v3]
+                                   0            25               
+    68 Breaks[p2,v5,v4]
+                                   0            25               
+    69 Breaks[p2,v5,v6]
+                                   0            25               
+    70 Breaks[p2,v6,v1]
+                                   0            25               
+    71 Breaks[p2,v6,v2]
+                                   0            25               
+    72 Breaks[p2,v6,v3]
+                                   0            25               
+    73 Breaks[p2,v6,v4]
+                                   0            25               
+    74 Breaks[p2,v6,v5]
+                                   0            25               
+    75 Breaks[p3,v1,v2]
+                                   0            30               
+    76 Breaks[p3,v1,v3]
+                                   0            30               
+    77 Breaks[p3,v1,v4]
+                                   0            30               
+    78 Breaks[p3,v1,v5]
+                                   0            30               
+    79 Breaks[p3,v1,v6]
+                                   0            30               
+    80 Breaks[p3,v2,v1]
+                                   0            30               
+    81 Breaks[p3,v2,v3]
+                                   0            30               
+    82 Breaks[p3,v2,v4]
+                                   0            30               
+    83 Breaks[p3,v2,v5]
+                                   0            30               
+    84 Breaks[p3,v2,v6]
+                                   0            30               
+    85 Breaks[p3,v3,v1]
+                                   0            30               
+    86 Breaks[p3,v3,v2]
+                                   0            30               
+    87 Breaks[p3,v3,v4]
+                                   0            30               
+    88 Breaks[p3,v3,v5]
+                                   0            30               
+    89 Breaks[p3,v3,v6]
+                                   0            30               
+    90 Breaks[p3,v4,v1]
+                                   0            30               
+    91 Breaks[p3,v4,v2]
+                                   0            30               
+    92 Breaks[p3,v4,v3]
+                                   0            30               
+    93 Breaks[p3,v4,v5]
+                                   0            30               
+    94 Breaks[p3,v4,v6]
+                                   0            30               
+    95 Breaks[p3,v5,v1]
+                                   0            30               
+    96 Breaks[p3,v5,v2]
+                                   0            30               
+    97 Breaks[p3,v5,v3]
+                                   0            30               
+    98 Breaks[p3,v5,v4]
+                                   0            30               
+    99 Breaks[p3,v5,v6]
+                                   0            30               
+   100 Breaks[p3,v6,v1]
+                                   0            30               
+   101 Breaks[p3,v6,v2]
+                                   0            30               
+   102 Breaks[p3,v6,v3]
+                                   0            30               
+   103 Breaks[p3,v6,v4]
+                                   0            30               
+   104 Breaks[p3,v6,v5]
+                                   0            30               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[p1,v1]     *              0             0             1 
+     2 x[p1,v2]     *              0             0             1 
+     3 x[p1,v3]     *              0             0             1 
+     4 x[p1,v4]     *              0             0             1 
+     5 x[p1,v5]     *              0             0             1 
+     6 x[p1,v6]     *              0             0             1 
+     7 x[p2,v1]     *              0             0             1 
+     8 x[p2,v2]     *              0             0             1 
+     9 x[p2,v3]     *              0             0             1 
+    10 x[p2,v4]     *              0             0             1 
+    11 x[p2,v5]     *              0             0             1 
+    12 x[p2,v6]     *              0             0             1 
+    13 x[p3,v1]     *              0             0             1 
+    14 x[p3,v2]     *              0             0             1 
+    15 x[p3,v3]     *              0             0             1 
+    16 x[p3,v4]     *              0             0             1 
+    17 x[p3,v5]     *              0             0             1 
+    18 x[p3,v6]     *              0             0             1 
+    19 x[a1,v1]     *              0             0             1 
+    20 x[a1,v2]     *              0             0             1 
+    21 x[a1,v3]     *              0             0             1 
+    22 x[a1,v4]     *              0             0             1 
+    23 x[a1,v5]     *              0             0             1 
+    24 x[a1,v6]     *              0             0             1 
+    25 x[a2,v1]     *              0             0             1 
+    26 x[a2,v2]     *              0             0             1 
+    27 x[a2,v3]     *              0             0             1 
+    28 x[a2,v4]     *              0             0             1 
+    29 x[a2,v5]     *              0             0             1 
+    30 x[a2,v6]     *              0             0             1 
+    31 x[a3,v1]     *              0             0             1 
+    32 x[a3,v2]     *              0             0             1 
+    33 x[a3,v3]     *              0             0             1 
+    34 x[a3,v4]     *              0             0             1 
+    35 x[a3,v5]     *              0             0             1 
+    36 x[a3,v6]     *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 6.00e+01 on row 15
+        max.rel.err = 9.84e-01 on row 15
+        SOLUTION IS INFEASIBLE
+
+End of output
