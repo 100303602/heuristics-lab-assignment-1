@@ -1,7 +1,7 @@
 Problem:    problem2
 Rows:       104
 Columns:    36 (36 integer, 36 binary)
-Non-zeros:  288
+Non-zeros:  198
 Status:     INTEGER EMPTY
 Objective:  Expenses = 0 (MINimum)
 
@@ -34,185 +34,185 @@ Objective:  Expenses = 0 (MINimum)
                                    0             1               
     14 Hours_Assigned
                                    0                          -0 
-    15 Breaks[p1,v1,v2]
+    15 Breaks[v1,v2,p1]
                                    0            60               
-    16 Breaks[p1,v1,v3]
-                                   0            60               
-    17 Breaks[p1,v1,v4]
-                                   0            60               
-    18 Breaks[p1,v1,v5]
-                                   0            60               
-    19 Breaks[p1,v1,v6]
-                                   0            60               
-    20 Breaks[p1,v2,v1]
-                                   0            60               
-    21 Breaks[p1,v2,v3]
-                                   0            60               
-    22 Breaks[p1,v2,v4]
-                                   0            60               
-    23 Breaks[p1,v2,v5]
-                                   0            60               
-    24 Breaks[p1,v2,v6]
-                                   0            60               
-    25 Breaks[p1,v3,v1]
-                                   0            60               
-    26 Breaks[p1,v3,v2]
-                                   0            60               
-    27 Breaks[p1,v3,v4]
-                                   0            60               
-    28 Breaks[p1,v3,v5]
-                                   0            60               
-    29 Breaks[p1,v3,v6]
-                                   0            60               
-    30 Breaks[p1,v4,v1]
-                                   0            60               
-    31 Breaks[p1,v4,v2]
-                                   0            60               
-    32 Breaks[p1,v4,v3]
-                                   0            60               
-    33 Breaks[p1,v4,v5]
-                                   0            60               
-    34 Breaks[p1,v4,v6]
-                                   0            60               
-    35 Breaks[p1,v5,v1]
-                                   0            60               
-    36 Breaks[p1,v5,v2]
-                                   0            60               
-    37 Breaks[p1,v5,v3]
-                                   0            60               
-    38 Breaks[p1,v5,v4]
-                                   0            60               
-    39 Breaks[p1,v5,v6]
-                                   0            60               
-    40 Breaks[p1,v6,v1]
-                                   0            60               
-    41 Breaks[p1,v6,v2]
-                                   0            60               
-    42 Breaks[p1,v6,v3]
-                                   0            60               
-    43 Breaks[p1,v6,v4]
-                                   0            60               
-    44 Breaks[p1,v6,v5]
-                                   0            60               
-    45 Breaks[p2,v1,v2]
+    16 Breaks[v1,v2,p2]
                                    0            25               
-    46 Breaks[p2,v1,v3]
-                                   0            25               
-    47 Breaks[p2,v1,v4]
-                                   0            25               
-    48 Breaks[p2,v1,v5]
-                                   0            25               
-    49 Breaks[p2,v1,v6]
-                                   0            25               
-    50 Breaks[p2,v2,v1]
-                                   0            25               
-    51 Breaks[p2,v2,v3]
-                                   0            25               
-    52 Breaks[p2,v2,v4]
-                                   0            25               
-    53 Breaks[p2,v2,v5]
-                                   0            25               
-    54 Breaks[p2,v2,v6]
-                                   0            25               
-    55 Breaks[p2,v3,v1]
-                                   0            25               
-    56 Breaks[p2,v3,v2]
-                                   0            25               
-    57 Breaks[p2,v3,v4]
-                                   0            25               
-    58 Breaks[p2,v3,v5]
-                                   0            25               
-    59 Breaks[p2,v3,v6]
-                                   0            25               
-    60 Breaks[p2,v4,v1]
-                                   0            25               
-    61 Breaks[p2,v4,v2]
-                                   0            25               
-    62 Breaks[p2,v4,v3]
-                                   0            25               
-    63 Breaks[p2,v4,v5]
-                                   0            25               
-    64 Breaks[p2,v4,v6]
-                                   0            25               
-    65 Breaks[p2,v5,v1]
-                                   0            25               
-    66 Breaks[p2,v5,v2]
-                                   0            25               
-    67 Breaks[p2,v5,v3]
-                                   0            25               
-    68 Breaks[p2,v5,v4]
-                                   0            25               
-    69 Breaks[p2,v5,v6]
-                                   0            25               
-    70 Breaks[p2,v6,v1]
-                                   0            25               
-    71 Breaks[p2,v6,v2]
-                                   0            25               
-    72 Breaks[p2,v6,v3]
-                                   0            25               
-    73 Breaks[p2,v6,v4]
-                                   0            25               
-    74 Breaks[p2,v6,v5]
-                                   0            25               
-    75 Breaks[p3,v1,v2]
+    17 Breaks[v1,v2,p3]
                                    0            30               
-    76 Breaks[p3,v1,v3]
+    18 Breaks[v1,v3,p1]
+                                   0            60               
+    19 Breaks[v1,v3,p2]
+                                   0            25               
+    20 Breaks[v1,v3,p3]
                                    0            30               
-    77 Breaks[p3,v1,v4]
+    21 Breaks[v1,v4,p1]
+                                   0            60               
+    22 Breaks[v1,v4,p2]
+                                   0            25               
+    23 Breaks[v1,v4,p3]
                                    0            30               
-    78 Breaks[p3,v1,v5]
+    24 Breaks[v1,v5,p1]
+                                   0            60               
+    25 Breaks[v1,v5,p2]
+                                   0            25               
+    26 Breaks[v1,v5,p3]
                                    0            30               
-    79 Breaks[p3,v1,v6]
+    27 Breaks[v1,v6,p1]
+                                   0            60               
+    28 Breaks[v1,v6,p2]
+                                   0            25               
+    29 Breaks[v1,v6,p3]
                                    0            30               
-    80 Breaks[p3,v2,v1]
+    30 Breaks[v2,v1,p1]
+                                   0            60               
+    31 Breaks[v2,v1,p2]
+                                   0            25               
+    32 Breaks[v2,v1,p3]
                                    0            30               
-    81 Breaks[p3,v2,v3]
+    33 Breaks[v2,v3,p1]
+                                   0            60               
+    34 Breaks[v2,v3,p2]
+                                   0            25               
+    35 Breaks[v2,v3,p3]
                                    0            30               
-    82 Breaks[p3,v2,v4]
+    36 Breaks[v2,v4,p1]
+                                   0            60               
+    37 Breaks[v2,v4,p2]
+                                   0            25               
+    38 Breaks[v2,v4,p3]
                                    0            30               
-    83 Breaks[p3,v2,v5]
+    39 Breaks[v2,v5,p1]
+                                   0            60               
+    40 Breaks[v2,v5,p2]
+                                   0            25               
+    41 Breaks[v2,v5,p3]
                                    0            30               
-    84 Breaks[p3,v2,v6]
+    42 Breaks[v2,v6,p1]
+                                   0            60               
+    43 Breaks[v2,v6,p2]
+                                   0            25               
+    44 Breaks[v2,v6,p3]
                                    0            30               
-    85 Breaks[p3,v3,v1]
+    45 Breaks[v3,v1,p1]
+                                   0            60               
+    46 Breaks[v3,v1,p2]
+                                   0            25               
+    47 Breaks[v3,v1,p3]
                                    0            30               
-    86 Breaks[p3,v3,v2]
+    48 Breaks[v3,v2,p1]
+                                   0            60               
+    49 Breaks[v3,v2,p2]
+                                   0            25               
+    50 Breaks[v3,v2,p3]
                                    0            30               
-    87 Breaks[p3,v3,v4]
+    51 Breaks[v3,v4,p1]
+                                   0            60               
+    52 Breaks[v3,v4,p2]
+                                   0            25               
+    53 Breaks[v3,v4,p3]
                                    0            30               
-    88 Breaks[p3,v3,v5]
+    54 Breaks[v3,v5,p1]
+                                   0            60               
+    55 Breaks[v3,v5,p2]
+                                   0            25               
+    56 Breaks[v3,v5,p3]
                                    0            30               
-    89 Breaks[p3,v3,v6]
+    57 Breaks[v3,v6,p1]
+                                   0            60               
+    58 Breaks[v3,v6,p2]
+                                   0            25               
+    59 Breaks[v3,v6,p3]
                                    0            30               
-    90 Breaks[p3,v4,v1]
+    60 Breaks[v4,v1,p1]
+                                   0            60               
+    61 Breaks[v4,v1,p2]
+                                   0            25               
+    62 Breaks[v4,v1,p3]
                                    0            30               
-    91 Breaks[p3,v4,v2]
+    63 Breaks[v4,v2,p1]
+                                   0            60               
+    64 Breaks[v4,v2,p2]
+                                   0            25               
+    65 Breaks[v4,v2,p3]
                                    0            30               
-    92 Breaks[p3,v4,v3]
+    66 Breaks[v4,v3,p1]
+                                   0            60               
+    67 Breaks[v4,v3,p2]
+                                   0            25               
+    68 Breaks[v4,v3,p3]
                                    0            30               
-    93 Breaks[p3,v4,v5]
+    69 Breaks[v4,v5,p1]
+                                   0            60               
+    70 Breaks[v4,v5,p2]
+                                   0            25               
+    71 Breaks[v4,v5,p3]
                                    0            30               
-    94 Breaks[p3,v4,v6]
+    72 Breaks[v4,v6,p1]
+                                   0            60               
+    73 Breaks[v4,v6,p2]
+                                   0            25               
+    74 Breaks[v4,v6,p3]
                                    0            30               
-    95 Breaks[p3,v5,v1]
+    75 Breaks[v5,v1,p1]
+                                   0            60               
+    76 Breaks[v5,v1,p2]
+                                   0            25               
+    77 Breaks[v5,v1,p3]
                                    0            30               
-    96 Breaks[p3,v5,v2]
+    78 Breaks[v5,v2,p1]
+                                   0            60               
+    79 Breaks[v5,v2,p2]
+                                   0            25               
+    80 Breaks[v5,v2,p3]
                                    0            30               
-    97 Breaks[p3,v5,v3]
+    81 Breaks[v5,v3,p1]
+                                   0            60               
+    82 Breaks[v5,v3,p2]
+                                   0            25               
+    83 Breaks[v5,v3,p3]
                                    0            30               
-    98 Breaks[p3,v5,v4]
+    84 Breaks[v5,v4,p1]
+                                   0            60               
+    85 Breaks[v5,v4,p2]
+                                   0            25               
+    86 Breaks[v5,v4,p3]
                                    0            30               
-    99 Breaks[p3,v5,v6]
+    87 Breaks[v5,v6,p1]
+                                   0            60               
+    88 Breaks[v5,v6,p2]
+                                   0            25               
+    89 Breaks[v5,v6,p3]
                                    0            30               
-   100 Breaks[p3,v6,v1]
+    90 Breaks[v6,v1,p1]
+                                   0            60               
+    91 Breaks[v6,v1,p2]
+                                   0            25               
+    92 Breaks[v6,v1,p3]
                                    0            30               
-   101 Breaks[p3,v6,v2]
+    93 Breaks[v6,v2,p1]
+                                   0            60               
+    94 Breaks[v6,v2,p2]
+                                   0            25               
+    95 Breaks[v6,v2,p3]
                                    0            30               
-   102 Breaks[p3,v6,v3]
+    96 Breaks[v6,v3,p1]
+                                   0            60               
+    97 Breaks[v6,v3,p2]
+                                   0            25               
+    98 Breaks[v6,v3,p3]
                                    0            30               
-   103 Breaks[p3,v6,v4]
+    99 Breaks[v6,v4,p1]
+                                   0            60               
+   100 Breaks[v6,v4,p2]
+                                   0            25               
+   101 Breaks[v6,v4,p3]
                                    0            30               
-   104 Breaks[p3,v6,v5]
+   102 Breaks[v6,v5,p1]
+                                   0            60               
+   103 Breaks[v6,v5,p2]
+                                   0            25               
+   104 Breaks[v6,v5,p3]
                                    0            30               
 
    No. Column name       Activity     Lower bound   Upper bound
