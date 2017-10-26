@@ -1,0 +1,17 @@
+data;
+
+param Departure_times :=
+v1	510
+v2	630
+v3	780
+v4	900
+v5	1065
+v6	1190;
+
+param Arrive_Times :=
+v1	585
+v2	720
+v3	885
+v4	965
+v5	1140
+v6	1260;
