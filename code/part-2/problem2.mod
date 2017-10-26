@@ -6,9 +6,12 @@ set CREW;
 set PILOTS within CREW := p1 p2 p3;
 set ATTENDANTS within CREW := a1 a2 a3;
 
-set ORDER := o1 o2 o3 o4 o5 o6;
+s.t. Minimum_Pilots {i in FLIGHTS}: sum{j in PILOTS}: x[j][i] >= 1;
+s.t. Minimum_Attendants {i in FLIGHTS}: sum{j in ATTENDANTS}: x[j][i] >= 1;
+
+s.t. Hours_Assigned: sum{i in FLIGHTS} (Flights_Durations[i]*sum{j in PILOTS} x[j][i]) <= sum{i in FLIGHTS} (Flights_Durations[i]*sum{j in ATTENDANTS} x[j][i]);
 
 
-s.t. Breaks {i in PILOTS, j in FLIGHTS, k in FLIGHTS, m in ORDER : j <> k}: x[i][k][m]*Departure_times[k] - x[i][j][m]*Arrival_times[j] >= Break_times[i];
+s.t. Breaks {i in PILOTS, j in FLIGHTS, k in FLIGHTS : j <> k}: x[i][k]*Departure_times[k] - x[i][j]*Arrival_times[j] >= Break_times[i];
 
-s.t. Crew_availability {i in CREW, j in FLIGHTS, k in FLIGHTS, m in ORDER, n in ORDER, k not in CAN_DEPART_FROM[j] : j <> k, n = m+1}: x[i][k][n] <= 0;
+s.t. Breaks {}: 
