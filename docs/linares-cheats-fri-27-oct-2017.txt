@@ -1,0 +1,44 @@
+Check out difference between
+    s.t. constraint {i in PILOTS, j in FLIGHTS}: ...
+    s.t. constraint: sum{i in PILOTS, j in FLIGHTS} ...
+First one generates 36 constraints. Second one generates 1 constraint only.
+In both cases, you can always do things like this:
+   s.t. constraint {i in FLIGHTS, v in FLIGHTS, i<>v}: ...
+   s.t. constraint: sum{i in FLIGHTS, v in FLIGHTS, i <> j and j < v}: ...
+
+
+
+
+say we wanna know flight attendants fly more than pilots. First constraint doesn't make any sense.
+    s.t. flight_attendants {p in PILOTS, a in ATTENDANTS, v in FLIGHTS} ...
+
+
+
+
+if you are comparing flights and use a condition with brackets {v1 in FLIGHT, v2 in FLIGHT: v1<v2 and v1<v2}
+
+
+
+
+
+
+minimum time between one flight and next one
+i have one pilot and i have a number of flights (up to 6 in this case). the logic works for an arbitrary number. dont make any tricks. do not profit
+from having 6 flights. i want to make sure for each assignment (one pilot and one flight) it is verified that elapsed time between arrive time of
+previous and depart time of new is greater or equal than
+i wish i had written somewhere where has been the last flight but we cant. say last flight is v3. say we want to assign v6. you need a table with
+delta time between departures and arrivals. this makes sense in the upper part of the rectangle, not the lower part. in fact, from the upper part,
+you wont consider everything, like entries like V1-V3, as they are in madrid both. if there is an amount of time between v3 and v6 that is legal,
+it will (somehow) fulfill for the others. say we have
+    descanso_vuelos{ranges over all pilots so p in PILOTS, and in all flights, so v1 in FLIGHTS, v2 in FLIGHTS, but not all of them, as i dont want to compare only v1<>v2 and v1<v2}
+
+
+
+
+how to know locations? 4 constraints: 2 for pilots, 2 for attendants. how the hell do i do it? i am comparing flights with previous flights. the whole thing
+consists of this. how do you verify any crew member is in a specific location? i dont know how to do it in a single constraint. what i did was to split the
+problem between pilots and attendants. then i said, i will check m-v flights, and then v-m flights.
+for any 2 flights, and any pilot, (F2). if i get positive, i have gone m-v. to know that i have gone back, i check with the second constraint of each group
+
+all you are doing is verify is you flew as many times mv than vm. and some combinations may not make sense (i think i heard that). in the table, upper part,
+between v1 and v3, im gonna write infinity, which solves 
