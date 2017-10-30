@@ -32,7 +32,7 @@ param Earnings {i in CREW, j in FLIGHTS};
 var x {i in CREW, j in FLIGHTS} binary;
 
 /* Objective function */
-minimize Expenses: sum{i in CREW} (sum{j in FLIGHTS} x[i,j] * Earnings[i,j] * Flights_Durations[j]);
+minimize Expenses: sum{i in CREW} (sum{j in FLIGHTS} x[i,j] * (Earnings[i,j]/60) * Flights_Durations[j]);
 
 /* Constraints */
 s.t. Minimum_Pilots {i in FLIGHTS}:                                  sum{j in PILOTS} x[j,i] >= 1;
