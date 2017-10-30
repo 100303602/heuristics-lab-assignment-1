@@ -1,8 +1,8 @@
 data;
 
 set FLIGHTS := v1 v2 v3 v4 v5 v6;
-set MADRID_VALENCIA_FLIGHTS := v1 v3 v5;
-set VALENCIA_MADRID_FLIGHTS := v2 v4 v6;
+set MAD_VAL_FLIGHTS := v1 v3 v5;
+set VAL_MAD_FLIGHTS := v2 v4 v6;
 set CREW := p1 p2 p3 a1 a2 a3;
 set PILOTS := p1 p2 p3;
 set ATTENDANTS := a1 a2 a3;
@@ -39,15 +39,6 @@ v4      -455    -335    -185    -65     100     0
 v5      -630    -510    -360    -240    -75     50
 v6      -750    -630    -480    -360    -195    -70;
 
-/*
-param Time_Between_Flights : v1 v2 v3 v4 v5 v6 :=
-v1      1       1       999999  1        999999  1
-v2      1       1       1       999999   1       999999
-v3      1       1       1       1        999999  1
-v4      1       1       1       1        1       999999
-v5      1       1       1       1        1       1
-v6      1       1       1       1        1       1;
-*/
 param Break_Times :=
 p1 60
 p2 25
