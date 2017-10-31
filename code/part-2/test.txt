@@ -1,0 +1,377 @@
+Problem:    test
+Rows:       147
+Columns:    54 (54 integer, 36 binary)
+Non-zeros:  462
+Status:     INTEGER OPTIMAL
+Objective:  Expenses = 502.0833333 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Expenses             -407.917                             
+     2 Volume[C1]              0.088                         0.1 
+     3 Volume[C2]              0.118                        0.15 
+     4 Volume[C3]               0.04                        0.07 
+     5 Volume[C4]              0.088                         0.1 
+     6 Volume[C5]              0.136                        0.15 
+     7 Volume[C6]               0.04                        0.07 
+     8 Weight[C1]                 50                          50 
+     9 Weight[C2]                 60                          60 
+    10 Weight[C3]                 40                          40 
+    11 Weight[C4]                 50                          50 
+    12 Weight[C5]                 56                          60 
+    13 Weight[C6]                 40                          40 
+    14 Gravity_Center
+                                  12            -0               
+    15 Baggage_Quantity[M1]
+                                   6                          22 
+    16 Baggage_Quantity[M2]
+                                  18                          18 
+    17 Baggage_Quantity[M3]
+                                  11                          11 
+    18 Minimum_Pilots[v1]
+                                   2             1               
+    19 Minimum_Pilots[v2]
+                                   1             1               
+    20 Minimum_Pilots[v3]
+                                   1             1               
+    21 Minimum_Pilots[v4]
+                                   1             1               
+    22 Minimum_Pilots[v5]
+                                   1             1               
+    23 Minimum_Pilots[v6]
+                                   1             1               
+    24 Minimum_Attendants[v1]
+                                   2             1               
+    25 Minimum_Attendants[v2]
+                                   1             1               
+    26 Minimum_Attendants[v3]
+                                   1             1               
+    27 Minimum_Attendants[v4]
+                                   1             1               
+    28 Minimum_Attendants[v5]
+                                   1             1               
+    29 Minimum_Attendants[v6]
+                                   1             1               
+    30 Hours_Assigned
+                                   0                          -0 
+    31 Breaks[v1,v2,p1]
+                                  60                         105 
+    32 Breaks[v1,v2,p2]
+                                  50                          70 
+    33 Breaks[v1,v2,p3]
+                                   0                          75 
+    34 Breaks[v1,v3,p1]
+                                  60                         255 
+    35 Breaks[v1,v3,p2]
+                                  50                         220 
+    36 Breaks[v1,v3,p3]
+                                   0                         225 
+    37 Breaks[v1,v4,p1]
+                                 120                         375 
+    38 Breaks[v1,v4,p2]
+                                  25                         340 
+    39 Breaks[v1,v4,p3]
+                                   0                         345 
+    40 Breaks[v1,v5,p1]
+                                 120                         540 
+    41 Breaks[v1,v5,p2]
+                                  25                         505 
+    42 Breaks[v1,v5,p3]
+                                   0                         510 
+    43 Breaks[v1,v6,p1]
+                                  60                         665 
+    44 Breaks[v1,v6,p2]
+                                  50                         630 
+    45 Breaks[v1,v6,p3]
+                                   0                         635 
+    46 Breaks[v2,v3,p1]
+                                   0                         120 
+    47 Breaks[v2,v3,p2]
+                                  50                          85 
+    48 Breaks[v2,v3,p3]
+                                   0                          90 
+    49 Breaks[v2,v4,p1]
+                                  60                         240 
+    50 Breaks[v2,v4,p2]
+                                  25                         205 
+    51 Breaks[v2,v4,p3]
+                                   0                         210 
+    52 Breaks[v2,v5,p1]
+                                  60                         405 
+    53 Breaks[v2,v5,p2]
+                                  25                         370 
+    54 Breaks[v2,v5,p3]
+                                   0                         375 
+    55 Breaks[v2,v6,p1]
+                                   0                         530 
+    56 Breaks[v2,v6,p2]
+                                  50                         495 
+    57 Breaks[v2,v6,p3]
+                                   0                         500 
+    58 Breaks[v3,v4,p1]
+                                  60                          75 
+    59 Breaks[v3,v4,p2]
+                                  25                          40 
+    60 Breaks[v3,v4,p3]
+                                   0                          45 
+    61 Breaks[v3,v5,p1]
+                                  60                         240 
+    62 Breaks[v3,v5,p2]
+                                  25                         205 
+    63 Breaks[v3,v5,p3]
+                                   0                         210 
+    64 Breaks[v3,v6,p1]
+                                   0                         365 
+    65 Breaks[v3,v6,p2]
+                                  50                         330 
+    66 Breaks[v3,v6,p3]
+                                   0                         335 
+    67 Breaks[v4,v5,p1]
+                                 120                         160 
+    68 Breaks[v4,v5,p2]
+                                   0                         125 
+    69 Breaks[v4,v5,p3]
+                                   0                         130 
+    70 Breaks[v4,v6,p1]
+                                  60                         285 
+    71 Breaks[v4,v6,p2]
+                                  25                         250 
+    72 Breaks[v4,v6,p3]
+                                   0                         255 
+    73 Breaks[v5,v6,p1]
+                                  60                         110 
+    74 Breaks[v5,v6,p2]
+                                  25                          75 
+    75 Breaks[v5,v6,p3]
+                                   0                          80 
+    76 Location[p1,v1]
+                                   0                           1 
+    77 Location[p1,v2]
+                                   1                           1 
+    78 Location[p1,v3]
+                                   1                           1 
+    79 Location[p1,v4]
+                                   1                           1 
+    80 Location[p1,v5]
+                                   0                           1 
+    81 Location[p1,v6]
+                                   1                           1 
+    82 Location[p2,v1]
+                                   0                           1 
+    83 Location[p2,v2]
+                                   1                           1 
+    84 Location[p2,v3]
+                                   0                           1 
+    85 Location[p2,v4]
+                                   1                           1 
+    86 Location[p2,v5]
+                                   1                           1 
+    87 Location[p2,v6]
+                                   1                           1 
+    88 Location[p3,v1]
+                                   0                           1 
+    89 Location[p3,v2]
+                                   0                           1 
+    90 Location[p3,v3]
+                                   0                           1 
+    91 Location[p3,v4]
+                                   0                           1 
+    92 Location[p3,v5]
+                                   0                           1 
+    93 Location[p3,v6]
+                                   0                           1 
+    94 Location[a1,v1]
+                                   0                           1 
+    95 Location[a1,v2]
+                                   0                           1 
+    96 Location[a1,v3]
+                                   0                           1 
+    97 Location[a1,v4]
+                                   0                           1 
+    98 Location[a1,v5]
+                                   0                           1 
+    99 Location[a1,v6]
+                                   1                           1 
+   100 Location[a2,v1]
+                                   0                           1 
+   101 Location[a2,v2]
+                                   1                           1 
+   102 Location[a2,v3]
+                                   0                           1 
+   103 Location[a2,v4]
+                                   1                           1 
+   104 Location[a2,v5]
+                                   1                           1 
+   105 Location[a2,v6]
+                                   1                           1 
+   106 Location[a3,v1]
+                                   0                           1 
+   107 Location[a3,v2]
+                                   1                           1 
+   108 Location[a3,v3]
+                                   1                           1 
+   109 Location[a3,v4]
+                                   1                           1 
+   110 Location[a3,v5]
+                                   0                           1 
+   111 Location[a3,v6]
+                                   0                           1 
+   112 Location2[p1,v1]
+                                   0                          -0 
+   113 Location2[p1,v2]
+                                  -1                          -0 
+   114 Location2[p1,v3]
+                                  -1                          -0 
+   115 Location2[p1,v4]
+                                  -1                          -0 
+   116 Location2[p1,v5]
+                                   0                          -0 
+   117 Location2[p1,v6]
+                                  -1                          -0 
+   118 Location2[p2,v1]
+                                   0                          -0 
+   119 Location2[p2,v2]
+                                  -1                          -0 
+   120 Location2[p2,v3]
+                                   0                          -0 
+   121 Location2[p2,v4]
+                                  -1                          -0 
+   122 Location2[p2,v5]
+                                  -1                          -0 
+   123 Location2[p2,v6]
+                                  -1                          -0 
+   124 Location2[p3,v1]
+                                   0                          -0 
+   125 Location2[p3,v2]
+                                   0                          -0 
+   126 Location2[p3,v3]
+                                   0                          -0 
+   127 Location2[p3,v4]
+                                   0                          -0 
+   128 Location2[p3,v5]
+                                   0                          -0 
+   129 Location2[p3,v6]
+                                   0                          -0 
+   130 Location2[a1,v1]
+                                   0                          -0 
+   131 Location2[a1,v2]
+                                   0                          -0 
+   132 Location2[a1,v3]
+                                   0                          -0 
+   133 Location2[a1,v4]
+                                   0                          -0 
+   134 Location2[a1,v5]
+                                   0                          -0 
+   135 Location2[a1,v6]
+                                  -1                          -0 
+   136 Location2[a2,v1]
+                                   0                          -0 
+   137 Location2[a2,v2]
+                                  -1                          -0 
+   138 Location2[a2,v3]
+                                   0                          -0 
+   139 Location2[a2,v4]
+                                  -1                          -0 
+   140 Location2[a2,v5]
+                                  -1                          -0 
+   141 Location2[a2,v6]
+                                  -1                          -0 
+   142 Location2[a3,v1]
+                                   0                          -0 
+   143 Location2[a3,v2]
+                                  -1                          -0 
+   144 Location2[a3,v3]
+                                  -1                          -0 
+   145 Location2[a3,v4]
+                                  -1                          -0 
+   146 Location2[a3,v5]
+                                   0                          -0 
+   147 Location2[a3,v6]
+                                   0                          -0 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 baggages[C1,M1]
+                    *              2             0               
+     2 baggages[C2,M1]
+                    *              2             0               
+     3 baggages[C3,M1]
+                    *              0             0               
+     4 baggages[C4,M1]
+                    *              2             0               
+     5 baggages[C5,M1]
+                    *              0             0               
+     6 baggages[C6,M1]
+                    *              0             0               
+     7 baggages[C1,M2]
+                    *              2             0               
+     8 baggages[C2,M2]
+                    *              2             0               
+     9 baggages[C3,M2]
+                    *              5             0               
+    10 baggages[C4,M2]
+                    *              2             0               
+    11 baggages[C5,M2]
+                    *              2             0               
+    12 baggages[C6,M2]
+                    *              5             0               
+    13 baggages[C1,M3]
+                    *              2             0               
+    14 baggages[C2,M3]
+                    *              3             0               
+    15 baggages[C3,M3]
+                    *              0             0               
+    16 baggages[C4,M3]
+                    *              2             0               
+    17 baggages[C5,M3]
+                    *              4             0               
+    18 baggages[C6,M3]
+                    *              0             0               
+    19 x[p1,v1]     *              1             0             1 
+    20 x[p1,v2]     *              0             0             1 
+    21 x[p1,v3]     *              0             0             1 
+    22 x[p1,v4]     *              1             0             1 
+    23 x[p1,v5]     *              1             0             1 
+    24 x[p1,v6]     *              0             0             1 
+    25 x[p2,v1]     *              1             0             1 
+    26 x[p2,v2]     *              1             0             1 
+    27 x[p2,v3]     *              1             0             1 
+    28 x[p2,v4]     *              0             0             1 
+    29 x[p2,v5]     *              0             0             1 
+    30 x[p2,v6]     *              1             0             1 
+    31 x[p3,v1]     *              0             0             1 
+    32 x[p3,v2]     *              0             0             1 
+    33 x[p3,v3]     *              0             0             1 
+    34 x[p3,v4]     *              0             0             1 
+    35 x[p3,v5]     *              0             0             1 
+    36 x[p3,v6]     *              0             0             1 
+    37 x[a1,v1]     *              0             0             1 
+    38 x[a1,v2]     *              0             0             1 
+    39 x[a1,v3]     *              0             0             1 
+    40 x[a1,v4]     *              0             0             1 
+    41 x[a1,v5]     *              1             0             1 
+    42 x[a1,v6]     *              0             0             1 
+    43 x[a2,v1]     *              1             0             1 
+    44 x[a2,v2]     *              1             0             1 
+    45 x[a2,v3]     *              1             0             1 
+    46 x[a2,v4]     *              0             0             1 
+    47 x[a2,v5]     *              0             0             1 
+    48 x[a2,v6]     *              1             0             1 
+    49 x[a3,v1]     *              1             0             1 
+    50 x[a3,v2]     *              0             0             1 
+    51 x[a3,v3]     *              0             0             1 
+    52 x[a3,v4]     *              1             0             1 
+    53 x[a3,v5]     *              0             0             1 
+    54 x[a3,v6]     *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

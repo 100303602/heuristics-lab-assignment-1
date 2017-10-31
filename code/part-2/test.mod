@@ -44,7 +44,7 @@ var x {i in CREW, j in FLIGHTS} binary;
 
 /* Objective function */
 
-minimize Expenses: sum{j in CATEGORIES} (Costs[j] * (Number_of_Bags[j] - sum{i in COMPARTMENTS} baggages[i,j])) + sum{i in CREW} (sum{j in FLIGHTS}x[i,j] * (Earnings[i,j]/60) * Flights_Durations[j];
+minimize Expenses: sum{j in CATEGORIES} (Costs[j] * (Number_of_Bags[j] - sum{i in COMPARTMENTS} baggages[i,j])) + sum{i in CREW} (sum{j in FLIGHTS}x[i,j] * (Earnings[i,j]/60) * Flights_Durations[j]);
 
 /* Constraints */
 s.t. Volume {i in COMPARTMENTS}:          sum{j in CATEGORIES} Volumes[j] * baggages[i,j] <= Maximum_Volumes[i];
